@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'normalize';
+@import 'typography';
+@import 'forms';
+@import 'imgs';
+
+html {
+    background: $background;
+}
+
+// .container {
+//     max-width: 75vw;
+//     margin: 0 auto 0 auto;
+// }
+
+.container-root {
+    max-width: 75vw;
+    margin: 0 auto 0 auto;
+    background: transparent;
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    margin-top: 50px;
+    min-width: 25%;
+    border-radius: 9px;
+    box-shadow: 3px 3px 10px #E3E3E3;
+    // border-right: 6px solid $primary;
+    // border-bottom: 6px solid $secondary;
+}
+
+.full-width {
+    width: 100%;
+}
+
