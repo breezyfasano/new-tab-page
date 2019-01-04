@@ -23,4 +23,8 @@ fetch("http://quotes.rest/qod.json?category=inspire") // fetching the quote of t
     const quoteCite = document.querySelector("cite");
     quoteBox.textContent = qod.quote;
     quoteCite.textContent = qod.author;
+})
+.catch(err => {
+    const quoteBox = document.querySelector("#qod p");
+    quoteBox.textContent = err;
 });
