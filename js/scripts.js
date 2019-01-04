@@ -12,7 +12,7 @@ function getCurrentTime() {
 const greeting = document.getElementById('greeting');
 greeting.textContent = `Good ${getCurrentTime()}, Breezy!`;
 
-fetch("http://quotes.rest/qod.json?category=inspire") // fetching the quote of the day API
+fetch("https://quotes.rest/qod.json?category=inspire") // fetching the quote of the day API
 .then(response => {
     return response.json();
 })
