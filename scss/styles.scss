@@ -14,15 +14,39 @@ html {
 // }
 
 .container-root {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.container-content {
     max-width: 75vw;
-    margin: 0 auto 0 auto;
-    background: transparent;
     z-index: 1;
+}
+
+.notes-container {
+    width: 23%;
+    padding-top: 50px;
+}
+
+.notes {
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 3px 3px 10px #E3E3E3;
+    padding: 15px;
+    height: 100%;
+}
+
+.note-input {
+    border:0;
+    width: 100%;
+    margin-top: 15px;
+    height: calc(100% - 40px)
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card {
@@ -32,8 +56,6 @@ html {
     min-width: 25%;
     border-radius: 9px;
     box-shadow: 3px 3px 10px #E3E3E3;
-    // border-right: 6px solid $primary;
-    // border-bottom: 6px solid $secondary;
 }
 
 .full-width {
