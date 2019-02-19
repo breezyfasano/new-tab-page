@@ -334,6 +334,9 @@ a {
 cite {
   color: #8075FF; }
 
+#qod {
+  font-size: .8em; }
+
 input[type="text"] {
   padding: 15px;
   border-radius: 30px;
@@ -394,7 +397,7 @@ html {
   justify-content: space-evenly; }
 
 .container-content {
-  max-width: 75vw;
+  max-width: 70vw;
   z-index: 1; }
 
 .notes-container {
